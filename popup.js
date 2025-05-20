@@ -29,6 +29,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadData();
     renderCategories();
     setupEventListeners();
+    // Focus the search input when popup opens
+    searchInput.focus();
 });
 
 // Load data from chrome.storage
