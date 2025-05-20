@@ -38,7 +38,7 @@ A minimal, fast, and modern Chrome extension for organizing and quickly accessin
 
 ## Screenshots
 
-![screenshot](screenshot.png) <!-- Add your own screenshot if desired -->
+![screenshot](screenshots/main.png) <!-- Add your own screenshot if desired -->
 
 ## License
 
