@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Vault</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Text Vault</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search items...">
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="content-header">
+                <h2>Categories</h2>
+                <button id="addCategoryBtn" class="btn" title="Add Category">
+                    <span class="material-icons">add</span>
+                </button>
+            </div>
+
+            <div id="categoriesContainer" class="categories-container">
+                <!-- Categories and their items will be added here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for adding/editing categories -->
+    <div id="categoryModal" class="modal">
+        <div class="modal-content">
+            <h3 id="categoryModalTitle">Add Category</h3>
+            <input type="text" id="categoryTitle" placeholder="Category Title">
+            <div class="modal-buttons">
+                <button id="saveCategoryBtn" class="btn">
+                    <span class="material-icons">save</span>
+                </button>
+                <button id="cancelCategoryBtn" class="btn btn-secondary">
+                    <span class="material-icons">close</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for adding/editing items -->
+    <div id="itemModal" class="modal">
+        <div class="modal-content">
+            <h3 id="itemModalTitle">Add Item</h3>
+            <select id="itemCategorySelect"></select>
+            <input type="text" id="itemTitle" placeholder="Item Title">
+            <textarea id="itemBody" placeholder="Item Content"></textarea>
+            <div class="modal-buttons">
+                <button id="saveItemBtn" class="btn">
+                    <span class="material-icons">save</span>
+                </button>
+                <button id="cancelItemBtn" class="btn btn-secondary">
+                    <span class="material-icons">close</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
