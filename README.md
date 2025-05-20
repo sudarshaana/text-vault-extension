@@ -38,7 +38,8 @@ A minimal, fast, and modern Chrome extension for organizing and quickly accessin
 
 ## Screenshots
 
-![screenshot](screenshots/main.png) <!-- Add your own screenshot if desired -->
+<img src="https://raw.githubusercontent.com/sudarshaana/text-vault-extension/refs/heads/main/screenshoot/main.png" alt="Main" width="400"/>
+<img src="https://raw.githubusercontent.com/sudarshaana/text-vault-extension/refs/heads/main/screenshoot/main.png" alt="Search" width="400"/>
 
 ## License
 
